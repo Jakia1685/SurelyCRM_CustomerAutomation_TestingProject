@@ -9,10 +9,12 @@ The project follows the Page Object Model (POM) design pattern to make the autom
 SurelyCRM Demo: https://demo.surelycrm.co.uk/login
 
 🛠️ Technologies Used
-Python 3.12
+Python 
 Selenium WebDriver
 PyTest
 Page Object Model (POM)
 Google Chrome
 pytest-html
+
+
 Author: Jakia Sultana
