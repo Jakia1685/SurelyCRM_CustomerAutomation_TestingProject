@@ -1,20 +1,24 @@
-# SurelyCRM_CustomerAutomation_TestingProject
+# SurelyCRM Customer Automation
+Web UI automation testing project for SurelyCRM using **Python, Selenium WebDriver, and PyTest**.
 
-📌 Project Overview
-This project automates the Customer Management flow of the SurelyCRM demo website using Selenium WebDriver, Python, and PyTest.
+## Test Flow
 
-The project follows the Page Object Model (POM) design pattern to make the automation code organized, reusable, and maintainable.
+Login → Customers → Add Customer → Enter Customer Information → Save → Verify Customer → Logout → PASSED
 
-🌐 Application Under Test
-SurelyCRM Demo: https://demo.surelycrm.co.uk/login
+## Test Data
 
-🛠️ Technologies Used
-Python 
-Selenium WebDriver
-PyTest
-Page Object Model (POM)
-Google Chrome
-pytest-html
+- First Name: Jakia
+- Last Name: Sultana
+- Phone: 01300000000
+- Email: jakia1685@gmail.com
 
+## Technologies
 
-Author: Jakia Sultana
+- Python
+- Selenium WebDriver
+- PyTest
+- Page Object Model (POM)
+
+## Run Project
+
+python -m pytest -v -s --html=reports/crm_report.html --self-contained-html
